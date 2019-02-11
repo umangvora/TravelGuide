@@ -1,10 +1,3 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
-article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
-ol,ul{list-style:none;margin:0;padding:0;}
-blockquote,q{quotes:none;}
-blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
-table{border-collapse:collapse;border-spacing:0;}
-/* start editing from here */
 a{text-decoration:none;}
 .txt-rt{text-align:right;}/* text align right */
 .txt-lt{text-align:left;}/* text align left */
@@ -22,7 +15,7 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
 body {
-    background: url(../images/bg.png) no-repeat #fff;
+    background: url(bg.png) no-repeat #fff;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -118,8 +111,7 @@ form {
 	-moz-transition: all 0.5s ease-out;
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
-	transition: all 0.5s ease-out;
-	
+	transition: all 0.5s ease-out;	
 }
 .footer p a:hover{
 	color: #fff;
@@ -133,7 +125,6 @@ background: -o-linear-gradient(top,  #0d7ec4 0%,#0a76b9 19%,#035b98 52%,#045a93 
 background: -ms-linear-gradient(top,  #0d7ec4 0%,#0a76b9 19%,#035b98 52%,#045a93 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #0d7ec4 0%,#0a76b9 19%,#035b98 52%,#045a93 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d7ec4', endColorstr='#045a93',GradientType=0 ); /* IE6-9 */
-
    cursor: pointer;
 	padding: 29px 29px;
 	display: inline-block;
@@ -160,7 +151,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d7ec4', end
 	
 }
 button span{
-	background: url(../images/arrow.png) repeat-x -8px -4px;
+	background: url(arrow.png) repeat-x -8px -4px;
 	height: 14px;
 	width: 21px;
 	display: block;
@@ -185,14 +176,13 @@ button span{
 }
 
 button span:hover {
-	background: url(../images/arrow.png) repeat-x 32px -4px;
+	background: url(arrow.png) repeat-x 32px -4px;
 	height: 14px;
 width: 21px;
 display: block;
 outline: none;
 border: none;
 }
-
 .btn-4:before {
 	position: absolute;
 	left:70%;
@@ -200,10 +190,8 @@ border: none;
 	display:none;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-	
+	transition: all 0.3s;	
 }
-
 .btn-4:active:before {
 	color: #17954c;
 	left: 20%;
@@ -215,8 +203,6 @@ top: 20px;
 	.wrap{
 		width:95%;
 	}
-	
-
 }
 @media only screen and (max-width: 1280px) and (min-width: 1024px) {
 	.wrap{
@@ -341,12 +327,12 @@ top: 20px;
         font-size:0.9em;
 	}
 	button span:hover {
-		background: url(../images/arrow.png) repeat-x 32px -4px;
+		background: url(arrow.png) repeat-x 32px -4px;
 		height: 14px;
 		width: 21px;
 	}
 	button span {
-		background: url(../images/arrow.png) repeat-x -9px -4px;
+		background: url(arrow.png) repeat-x -9px -4px;
 		height: 14px;
 		width: 21px;
 		top: 12px;
@@ -358,15 +344,12 @@ top: 20px;
 		width: 100%;
 		margin-top: 0em;
 	}
-	
 	.content-grid p {
 		margin-top:1em;
 	}
-	
 	.grid p{
 		margin-top: 0em;
 	}
-	
 	.grid h3 {
 		font-size: 1em;
 		padding-top: 1em;
@@ -390,12 +373,12 @@ top: 20px;
 		margin-bottom: 1em;
 	}
 	button span:hover {
-		background: url(../images/arrow.png) repeat-x 32px -4px;
+		background: url(arrow.png) repeat-x 32px -4px;
 		height: 14px;
 		width: 21px;
 	}
 	button span {
-		background: url(../images/arrow.png) repeat-x -9px -4px;
+		background: url(arrow.png) repeat-x -9px -4px;
 		height: 14px;
 		width: 21px;
 		top: 12px;
